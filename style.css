@@ -231,13 +231,13 @@
         padding: 2rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
         transition: transform var(--transition-speed), 
         box-shadow var(--transition-speed);
         /* position: sticky; */
         top: 100px;
-        height: 50vh;
+        height: 55vh;
     }
 
     .profile-ip {
@@ -327,15 +327,18 @@
         justify-content: center;
         gap: 0.75rem;
         margin-bottom: 2rem;
+        align-items: center;
+        
     }
 
     .tag {
-        padding: 0.5rem 1rem;
-        border-radius: 25px;
-        font-weight: 600;
+        padding: 1.5rem 0.5rem;
+        border-radius: 80px;
+        font-weight: 200;
         transition: all var(--transition-speed);
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         text-align: center;
+        
     }
     
     .tag:hover {
@@ -406,7 +409,8 @@
       .footer-column h3 {
         color: var(--primary, #00ffcc);
         margin-bottom: 1rem;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
+
       }
       
       .footer-column ul {
@@ -416,12 +420,14 @@
       
       .footer-column ul li {
         margin-bottom: 0.5rem;
+    
       }
       
       .footer-column ul li a {
         color: rgba(255, 255, 255, 0.8);
         text-decoration: none;
         transition: 0.3s;
+        font-size: 20px;
       }
       
       .footer-column ul li a:hover {
